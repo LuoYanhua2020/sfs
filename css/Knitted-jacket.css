@@ -1,0 +1,657 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+.banner {
+    width: 100%;
+    height: 288px;
+    background: url('../images/loose-coat/banner1.jpg')no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+.banner-content {
+    width: 1200px;
+    height: 288px;
+    margin: 70px auto;
+    position: relative;
+}
+
+.banner-C-div {
+    width: 600px;
+    height: 60px;
+    border: 2px solid black;
+    position: absolute;
+    left: 300px;
+    top: 110px;
+}
+
+.banner-C-div-put {
+    display: block;
+    width: 400px;
+    height: 35px;
+    background-color: transparent;
+    position: absolute;
+    left: 50px;
+    top: 12px;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    columns: rgb(51, 51, 51);
+}
+
+.banner-C-div-bth {
+    width: 50px;
+    height: 51px;
+    border-left: 2px solid black;
+    position: absolute;
+    left: 538px;
+    top: 0px;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+@font-face {
+    font-family: "iconfonto";
+    src: url('iconfont.eot?t=1595473030317');
+    /* IE9 */
+    src: url('iconfont.eot?t=1595473030317#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALUAAsAAAAABoAAAAKGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBBIEVATYCJAMICwYABCAFhG0HNRvABRHVkyNkX2Ls8sCkVHXPzm2WRYvk5rRvFv5BRHH7QCbwAmYAAAAAgAiitbJ6Zx5RIUpWzEk0kWKhUCXGhoWMULGAEkjo07nBbninVTeN1ojQFNbbixZo3rKqXKmXLjRNUpoimImQks3N+rZG5YVhSfQPz3pdIIWdXpr+EGb2QMfXP8c4vRaaeOAnGlgPAJ+4d/qn/wpkvvMux71orEmTugDjQApob4wiK5LIG8YueIGPCVTrMiFW1nZOUGavCsSNq5fPYiEsyyxXKZQ3HMziKaWyeFws5Un0/fibBSmUJXbDwaXVC/YPcwrwknMBIQICOl6GhAlk4qQxvQeCCZLq9NDHsWqDH/aBSxzVLthfZ1fXgg6oeCalp3pU2QJkRjOIuUmXkWpr6+69r2pHffr20t0MtJ1po3JJbfWZPr9NdJ75KLNvd7mL19oUCXFhQp78D/yFCXJRaLJE6kd4vJ1ptqfwt5rTfagWCEopfUYRDBx9Qw3zYAZflm+6pJQypNtE5e49wW9SDuzJhtp2FllTNuYLg9Lpm6pVowTY3+z7VEvbPeVDpbY781bozJBUGiAzO4EyNSZRrtI8qo1bP16jxU0QuQpj7gOERm9QqPcWSaN3ZGa/oUy7/yjXGEC102EX1hgKctJmNII9tC+YOtqt6xYd1xY4hNVwXh0JG2Q/xSCNknLuijvyElv8fchELFimDS7gOVxXAsc0YyfRKOLyOLZNb4o62pRWZjSCPbQvmDrabTBYdOXzBQ5hNdzRVZdvkP00PqRRMoC8GvZBXY/yir8PmYgFy7TBBczDdSVwzfNm7CQaJyRdHjv97FBDtL1p+7tDUK1sa3Fwdib0FHygJZh9UAoAAA==') format('woff2'), url('iconfont.woff?t=1595473030317') format('woff'), url('iconfont.ttf?t=1595473030317') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1595473030317#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfonto {
+    font-family: "iconfonto" !important;
+    font-size: 35px;
+    color: #000000;
+    font-style: normal;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.Content-one {
+    width: 1200px;
+    height: 36px;
+    margin: 0px auto;
+    margin-top: 30px;
+    position: relative;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+
+/* .Content-one-one {
+    width: 1200px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding-top: 15px;
+    border: 1px solid #dddddd;
+} */
+
+.Content-one a {
+    color: rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+.Content-one a:hover {
+    color: #999999;
+}
+
+.Content-one span {
+    color: #999999;
+}
+
+.Content-one em {
+    color: #999999;
+}
+
+.Content-two {
+    width: 1200px;
+    height: 9070px;
+    margin: 0px auto;
+    position: relative;
+    padding: 20px 0px 0px 20px;
+    background-color: #ffffff;
+}
+
+.Content-two-left {
+    width: 425px;
+    height: 565px;
+    position: relative;
+}
+
+.Content-two-left-img {
+    width: 422px;
+    height: 424px;
+    position: relative;
+    border: 1px solid #cccccc;
+}
+
+.Content-two-left-img img {
+    width: 422px;
+    height: 424px;
+}
+
+.Content-two-left ul {
+    width: 410px;
+    height: 93px;
+    position: absolute;
+    left: 7px;
+    top: 435px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Content-two-left ul li {
+    width: 93px;
+    height: 93px;
+    border: 1px solid #cccccc;
+}
+
+.Content-two-left ul li img {
+    width: 93px;
+    height: 93px;
+}
+
+.Content-two-left p {
+    width: 110px;
+    height: 30px;
+    color: #666;
+    font-size: 14px;
+    position: absolute;
+    left: 0px;
+    top: 540px;
+}
+
+#small {
+    width: 160px;
+    height: 240px;
+    background-color: rgb(212, 209, 209);
+    opacity: 0.4;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}
+
+#big {
+    width: 350px;
+    height: 480px;
+    position: absolute;
+    left: 430px;
+    top: 0px;
+    overflow: hidden;
+    display: none;
+    z-index: 50;
+}
+
+#big img {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+/* //内容右边购物车部分 */
+
+.Content-two-right {
+    width: 745px;
+    height: 300px;
+    position: absolute;
+    left: 460px;
+    top: 55px;
+}
+
+.pro-tit {
+    width: 745px;
+    height: 35px;
+}
+
+.pro-tit h1 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.p-price-list {
+    width: 730px;
+    height: 60px;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+
+.p-price-list p {
+    font-size: 14px;
+    color: #111111;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.p-price-list em {
+    font-size: 26px;
+    color: #111111;
+    position: absolute;
+    left: 95px;
+    top: 15px;
+}
+
+.p-price-list i {
+    font-size: 14px;
+    color: #666666;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+
+.Content-two-ul {
+    width: 730px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    top: 122px;
+    border-top: 1px dashed #cccccc;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.Content-two-ul li {
+    width: 350px;
+    height: 16px;
+    text-align: center;
+    margin-top: 9px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.Content-two-ul li span {
+    margin-right: 7px;
+}
+
+.Content-two-buttonL {
+    width: 67px;
+    height: 45px;
+    position: absolute;
+    left: 0px;
+    top: 185px;
+}
+
+.Content-two-buttonL p {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: #999999;
+}
+
+.Content-two-button {
+    width: 655px;
+    height: 45px;
+    position: absolute;
+    left: 75px;
+    top: 185px;
+    /* border: 1px solid red; */
+}
+
+.Content-two-button-bth {
+    width: 70px;
+    height: 45px;
+    border: 1px solid #cccccc;
+}
+
+.Content-two-button-bth input {
+    width: 45px;
+    height: 41px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    outline: none;
+}
+
+.Content-two-button-bth a {
+    width: 19px;
+    height: 22px;
+    text-align: center;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid #cccccc;
+}
+
+.Content-two-button-bth a:nth-of-type(1) {
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+
+.Content-two-button-bth a:nth-of-type(2) {
+    position: absolute;
+    left: 50px;
+    top: 23px;
+}
+
+.Content-two-button-bthtwo {
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    left: 110px;
+    top: 10px;
+}
+
+.Content-two-button-bthtwo p {
+    color: #999999;
+    margin-top: 5px;
+}
+
+.sum {
+    font-size: 16px;
+    position: absolute;
+    left: 30px;
+    top: 2px;
+    color: #e53a3e;
+    font-style: normal;
+    font-family: '微软雅黑';
+}
+
+.Content-two-button-bottom {
+    width: 730px;
+    height: 43px;
+    position: absolute;
+    left: 0px;
+    top: 245px;
+}
+
+.Content-two-button-bottom a {
+    display: block;
+    width: 180px;
+    height: 43px;
+}
+
+.Content-two-button-bottom a img {
+    width: 180px;
+    height: 43px;
+}
+
+.Content-two-button-bottom a:nth-of-type(2) {
+    position: absolute;
+    left: 195px;
+    top: 0px;
+}
+
+.switch-t {
+    width: 1180px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 600px;
+}
+
+.switch-t-top {
+    width: 1180px;
+    height: 40px;
+}
+
+.switch-t-top ul {
+    width: 188px;
+    height: 40px;
+}
+
+.switch-t-top ul li {
+    width: 94px;
+    height: 40px;
+}
+
+.switch-t-top-i {
+    border: 1px solid rgb(237, 237, 237);
+    border-bottom: none;
+}
+
+.switch-t-top-ii {
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.switch-t-top ul li a {
+    position: absolute;
+    left: 23px;
+    top: 11px;
+}
+
+.switch-t-top ul li:nth-of-type(2) {
+    position: absolute;
+    left: 94px;
+    top: 0px;
+}
+
+.switch-t-top-div {
+    width: 992px;
+    height: 40px;
+    position: absolute;
+    left: 188px;
+    top: 0px;
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.switch-t-one {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    /* border: 1px solid red; */
+}
+
+.switch-t-one ul {
+    width: 800px;
+    height: auto;
+}
+
+.bottom {
+    margin-top: 100px;
+}
+
+.switch-t-two {
+    width: 1160px;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    display: none;
+}
+
+.switch-t-two-top {
+    width: 1160px;
+    height: 60px;
+    position: relative;
+}
+
+.switch-t-two-top-l {
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+}
+
+.switch-t-two-top-l p {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    color: #444444;
+}
+
+.switch-t-two-top-l em {
+    font-size: 32px;
+    color: #ff6600;
+    position: absolute;
+    left: 65px;
+    top: 1px;
+}
+
+.switch-t-two-top-l-img {
+    width: 63px;
+    height: 15px;
+    position: absolute;
+    left: 0px;
+    top: 38px;
+    background: url('../images/Knitted-jacket/T1krl0Xk8zXXXXXXXX-194-382.png')no-repeat;
+    background-position: -128px -234px;
+}
+
+.switch-t-two-top-r {
+    width: 470px;
+    height: 40px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    /* border: 1px solid red; */
+}
+
+.switch-t-two-top-r-img {
+    width: 410px;
+    height: 20px;
+    background: url('../images/Knitted-jacket/T1Zy55XcJsXXXXXXXX-487-21.png')no-repeat;
+}
+
+.switch-t-two-top-r ul {
+    width: 470px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 25px;
+}
+
+.switch-t-two-top-r ul li {
+    margin-left: 43px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.switch-t-two-content {
+    width: 1177px;
+    height: 442px;
+    position: absolute;
+    left: 0px;
+    top: 110px;
+    border: 1px solid rgb(237, 237, 237);
+}
+
+.switch-t-two-content-top {
+    width: 1177px;
+    height: 40px;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+}
+
+.switch-t-two-content-top p {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 18px;
+    color: #222222;
+}
+
+.switch-t-two-content-div {
+    width: 1150px;
+    height: 358px;
+    position: absolute;
+    left: 12px;
+    top: 65px;
+    overflow: hidden;
+}
+
+.Content-two-table {
+    width: 2610px;
+    height: 258px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Content-two-table li {
+    width: 280px;
+    height: 358px;
+    position: relative;
+}
+
+.Content-two-table-tdiv {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    background-color: rgb(237, 237, 237);
+}
+
+.Content-two-table-tdiv img {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    left: 36px;
+    top: 35px;
+}
+
+.Content-two-table-p {
+    width: 280px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 293px;
+}
+
+.Content-two-table-p em {
+    color: #ff3a3a;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Content-two-table-a {
+    width: 280px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    top: 337px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.Content-two-table-a:hover {
+    text-decoration: underline;
+    color: #222222;
+}
+
+.switchcontent-l {
+    width: 28px;
+    height: 54px;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: 10;
+    display: none;
+    background: url('../images/Knitted-jacket/bth.png')no-repeat;
+    background-position: 0 0;
+}
+
+.switchcontent-r {
+    width: 28px;
+    height: 54px;
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    z-index: 10;
+    display: none;
+    background: url('../images/Knitted-jacket/bth.png')no-repeat;
+    background-position: -28px 0;
+}

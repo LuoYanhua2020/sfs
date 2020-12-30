@@ -1,0 +1,16 @@
+{
+  "id": "1692192",
+  "name": "icon-ing",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16066617",
+      "name": "微信",
+      "font_class": "weixin-copy",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+/* 轮播图模块 */
+
+#banner {
+    width: 1200px;
+    height: 540px;
+    margin: 80px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.ull {
+    list-style: none;
+    width: 3900px;
+    height: 566px;
+    position: relative;
+}
+
+.ull li {
+    list-style: none;
+    width: 1200px;
+    height: 540px;
+    float: left;
+}
+
+.ull li a img {
+    width: 1200px;
+    height: 540px;
+}
+
+#banner div[class^=ico] {
+    width: 30px;
+    height: 40px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 230px;
+    display: none;
+    color: cornsilk;
+    font-size: 30px;
+    font-weight: 90px;
+    padding-top: -30px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#banner div[class^=ico] a {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    color: #d4d4d4;
+    font-size: 30px;
+    font-weight: 90px;
+}
+
+.ico-l {
+    left: 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.ico-r {
+    right: 0px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.oll {
+    width: auto;
+    height: 11px;
+    position: absolute;
+    left: 225px;
+    bottom: 20px;
+}
+
+.oll li {
+    width: 14px;
+    height: 14px;
+    list-style: none;
+    float: left;
+    border: 1px solid rgb(43, 42, 45);
+    border-radius: 50%;
+    margin-right: 15px;
+    line-height: 8px;
+    background-color: #ffffff;
+}
+
+
+/* 选择模块 */
+
+.Exhibition {
+    width: 1200px;
+    height: 230px;
+    margin: -80px auto;
+    position: relative;
+}
+
+.Exhibition ul {
+    width: 1200px;
+    height: 172px;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+.Exhibition ul li {
+    width: 170px;
+    height: 172px;
+    position: relative;
+}
+
+.Exhibition ul li:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.Exhibition ul li img {
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    left: 46px;
+    top: 30px;
+}
+
+.Exhibition ul li p {
+    font-size: 14px;
+    position: absolute;
+    left: 70px;
+    top: 105px;
+}
+
+
+/* 品牌简介模块 */
+
+.B-Introdu {
+    width: 1200px;
+    height: 680px;
+    margin: 80px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.B-Introdu img {
+    position: absolute;
+    left: -350px;
+    top: 0px;
+}
+
+.B-left {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 580px;
+    top: 230px;
+}
+
+.B-left p {
+    font-size: 14px;
+}
+
+.B-left p span {
+    color: #ffffff;
+}
+
+.B-right {
+    width: 476px;
+    height: 320px;
+    position: absolute;
+    left: 710px;
+    top: 200px;
+}
+
+.B-right-top {
+    width: 180px;
+    height: 70px;
+    position: relative;
+}
+
+.B-right-top span {
+    font-size: 32px;
+}
+
+.B-right-top p {
+    color: #999999;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    font-size: 14px;
+}
+
+.B-right-center {
+    width: 476px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+}
+
+.B-right-center p {
+    width: 476px;
+    height: 100px;
+    color: #1d1e30;
+    font-size: 14px;
+    line-height: 1.8em;
+}
+
+.B-right-bth {
+    width: 150px;
+    height: 37px;
+    border: 1px solid black;
+    position: absolute;
+    left: 0px;
+    top: 277px;
+    overflow: hidden;
+}
+
+.retail-right-bth {
+    width: 150px;
+    height: 37px;
+    border: 1px solid black;
+    position: absolute;
+    left: 0px;
+    top: 277px;
+    overflow: hidden;
+}
+
+.B-right-bth p,
+.hot-sale-bth p,
+.new-D-bth p,
+.retail-right-bth p {
+    color: #1d1e30;
+    font-size: 14px;
+    position: absolute;
+    left: 18px;
+    top: 8px;
+    z-index: 80;
+}
+
+.B-right-bth img,
+.hot-sale-bth img,
+.new-D-bth img,
+.retail-right-bth img {
+    position: absolute;
+    left: 117px;
+    top: 12px;
+    z-index: 80;
+}
+
+.B-right-bth-two {
+    width: 150px;
+    height: 37px;
+    position: absolute;
+    left: -150px;
+    top: 0px;
+    background-color: #dddddd;
+}
+
+
+/* 热销产品模块 */
+
+.hot-sale {
+    width: 1200px;
+    height: 1310px;
+    margin: 0px auto;
+    margin-top: 100px;
+    position: relative;
+    color: #1d1e30;
+    font-size: 16px;
+}
+
+.hot-sale-H {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 540px;
+    top: 0px;
+}
+
+.hot-sale-H span {
+    font-size: 32px;
+}
+
+.hot-sale-ulone {
+    width: 1200px;
+    height: 505px;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-sale-ulone li,
+.hot-sale-ultwo li {
+    width: 380px;
+    height: 505px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hot-sale-ulone li img,
+.hot-sale-ultwo li img {
+    transition: all 0.8s;
+}
+
+.hot-sale-ulone li img:hover,
+.hot-sale-ultwo li img:hover {
+    transform: scale(1.2);
+}
+
+.hot-sale-lidiv {
+    width: 240px;
+    height: 110px;
+    position: absolute;
+    left: 72px;
+    top: 330px;
+    background-color: #ffffff;
+    opacity: 0.5;
+}
+
+.hot-sale-liwz {
+    width: 240px;
+    height: 110px;
+    position: absolute;
+    left: 72px;
+    top: 330px;
+}
+
+.hot-sale-liwz p {
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    padding-left: 40px;
+    padding-top: 20px;
+    border-bottom: 1px solid #1d1e30;
+}
+
+.hot-sale-liwz span {
+    position: absolute;
+    left: 77px;
+    top: 65px;
+}
+
+.hot-sale-ultwo {
+    width: 1200px;
+    height: 505px;
+    position: absolute;
+    left: 0px;
+    top: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hot-sale-bth {
+    width: 150px;
+    height: 37px;
+    border: 1px solid black;
+    position: absolute;
+    left: 530px;
+    top: 1168px;
+    overflow: hidden;
+}
+
+.hot-sale-bth-two {
+    width: 150px;
+    height: 37px;
+    position: absolute;
+    left: -150px;
+    top: 0px;
+    background-color: #dddddd;
+}
+
+
+/* 进入专区模块 */
+
+.Enter-z {
+    width: 1200px;
+    height: 930px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.Enter-z-left {
+    width: 585px;
+    height: 830px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.Enter-z-left p,
+.Enter-z-right p {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 250px;
+    top: 568px;
+}
+
+.Enter-z-left span,
+.Enter-z-right span {
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    left: 208px;
+    top: 610px;
+}
+
+.Enter-z-right {
+    width: 585px;
+    height: 830px;
+    position: absolute;
+    left: 615px;
+    top: 0px;
+}
+
+.Enter-z-right p,
+.Enter-z-right span {
+    color: #1d1e30;
+}
+
+.Enter-z-left-bth,
+.Enter-z-right-bth {
+    width: 130px;
+    height: 42px;
+    position: absolute;
+    left: 234px;
+    top: 700px;
+    background-color: #ffffff;
+}
+
+.Enter-z-left-bth:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #ffffff;
+}
+
+.Enter-z-left-bth:hover a {
+    color: #ffffff;
+}
+
+.Enter-z-left-bth a,
+.Enter-z-right-bth a {
+    font-size: 14px;
+    position: absolute;
+    left: 39px;
+    top: 12px;
+    color: #1d1e30;
+}
+
+.Enter-z-right-bth:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #000000;
+}
+
+
+/* 新闻模块 */
+
+.new-D {
+    width: 1200px;
+    height: 555px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.new-D-left {
+    width: 577px;
+    height: 250px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    transition: all 1s;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.new-D-left a,
+.new-D-right a {
+    display: block;
+    width: 245px;
+    height: 50px;
+    position: absolute;
+    left: 290px;
+    top: 80px;
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+}
+
+.new-D-left p,
+.new-D-right p {
+    position: absolute;
+    left: 290px;
+    top: 170px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.new-D-right {
+    width: 577px;
+    height: 250px;
+    position: absolute;
+    left: 615px;
+    top: 80px;
+    transition: all 1s;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.new-D-left:hover,
+.new-D-right:hover {
+    border: 1px solid black;
+}
+
+.new-D-bth {
+    width: 150px;
+    height: 37px;
+    border: 1px solid black;
+    position: absolute;
+    left: 530px;
+    top: 375px;
+    overflow: hidden;
+}
+
+
+/* 门店查询模块 */
+
+.retail-Store {
+    width: 1200px;
+    height: 680px;
+    margin: 0px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.retail-Store img:nth-child(1) {
+    position: absolute;
+    left: -365px;
+    top: 0px;
+}
+
+.retail-right {
+    width: 490px;
+    height: 320px;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+.retail-right-bth-two {
+    width: 150px;
+    height: 37px;
+    position: absolute;
+    left: -150px;
+    top: 0px;
+    background-color: #dddddd;
+}

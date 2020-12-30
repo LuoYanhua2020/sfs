@@ -1,0 +1,321 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 248);
+    font-family: Arial, "微软雅黑", "宋体";
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    text-decoration: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.flexx {
+    position: fixed;
+    top: 500px;
+    left: 95%;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    display: none;
+}
+
+.flexx img {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*头部*/
+
+.head {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    z-index: 99;
+    box-shadow: 0px 0.1px 25px 5px #dddddd;
+}
+
+.headd {
+    width: 1220px;
+    height: 80px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.head-left {
+    width: 195px;
+    padding-top: 20px;
+    height: 30px;
+}
+
+.head-left p {
+    font-size: 24px;
+}
+
+.head-left p span {
+    font-size: 24px;
+    color: #bdbdbd;
+}
+
+.head-center {
+    width: 7;
+    height: 70px;
+    position: absolute;
+    left: 385px;
+    top: 0px;
+}
+
+.head-center ul li {
+    width: auto;
+    height: 65px;
+    text-align: center;
+}
+
+.head-center ul li a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.head-center ul li a {
+    margin-right: 40px;
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    font-size: 14px;
+    padding-top: 28px;
+}
+
+.head-right {
+    width: 260px;
+    height: 79px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.head-right ul {
+    width: 280px;
+    height: 79px;
+}
+
+.head-right ul li {
+    width: auto;
+    height: 16px;
+    margin-top: 26px;
+    padding: 0px 20px 0px 20px;
+}
+
+.head-right ul li span {
+    display: block;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.bottom {
+    width: 100%;
+    height: 440px;
+    background-color: rgb(26, 26, 26);
+}
+
+.bottom-content {
+    width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.bottom-content-ul {
+    width: 40px;
+    height: 200px;
+    position: absolute;
+    left: 15px;
+    top: 70px;
+    font-size: 14px;
+}
+
+.bottom-content-ul li a,
+.bottom-content-ull li a,
+.bottom-content-ulll li a,
+.bottom-content-ullll li a {
+    width: auto;
+    height: 20px;
+    color: #a4a4a4;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.bottom-content-ul li a:hover,
+.bottom-content-ull li a:hover,
+.bottom-content-ulll li a:hover {
+    color: #ffffff;
+}
+
+.bottom-content-ul li:nth-of-type(1),
+.bottom-content-ull li:nth-of-type(1),
+.bottom-content-ulll li:nth-of-type(1),
+.bottom-content-ullll li:nth-of-type(1) {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.bottom-content-ull {
+    width: 80px;
+    height: 200px;
+    position: absolute;
+    left: 267px;
+    top: 70px;
+}
+
+.bottom-content-ulll {
+    width: 80px;
+    height: 200px;
+    position: absolute;
+    left: 535px;
+    top: 70px;
+    z-index: 50;
+}
+
+.bottom-content-ullll {
+    width: 230px;
+    height: 150px;
+    position: absolute;
+    left: 780px;
+    top: 70px;
+    /* border: 1px solid red; */
+}
+
+.bottom-content-ullll li p {
+    width: 135px;
+    height: 47px;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    background-color: #FFFFFF;
+}
+
+.bottom-content-ullll li p a {
+    display: block;
+    height: 20px;
+    color: #1d1e1d;
+    font-size: 14px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+.bottom-ico {
+    width: 116px;
+    height: 40px;
+    position: absolute;
+    left: 444px;
+    top: 290px;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1595388330476');
+    /* IE9 */
+    src: url('iconfont.eot?t=1595388330476#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO0AAsAAAAAB5AAAANlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqDHIJ+ATYCJAMICwYABCAFhG0HLxujBlFULXJkPwrcPUWkjItgKJ1s4aUtB80PJYT/Tzz8/1q778/MqiXUIt2zaIgkOnHjHhLEYCnQvYTZ/7nMARqV54/lKUKFvpDfcvrSHDnY5vSUmpCbcBu0y+RZIV/ZE8UJ1qoVOrSztbVvwOX0W+LzgHKZY/JjgHFAAY61KJCyuIAC4x7i7XLtsHYTaFjQUjhd7I5Ql4NBgXgIPAvqKZO8pjrUhErJzFy8oKulp3QAPPvfj3+D4CApMlB3cT93YfRlg3nUyvIp1CWIx3NAnEeGPSAnbkpdZ0phak9JQ0+VrYB1VQdfNuzSFa32j0cQFVDZAnOM6JzEtuRUf5lAjipmgNdeJ3HGlOXj4+FG8jlT/d2kzhGGNvokhwlfDEN0NAvH/fCrAJIwgbEY4U+SUSHuh2G+MLj8CTpGzXHScZ/whb4Tc1XLqtOzlTNKMKBjqqt/erKzB8GYlm5RSBKouaOyk0XiqLOTGwZvYQh19IDnLLdoNzpxv9W0QHR0Tku2exF/+N08aRQj5HSNWpTjQqTK1Sxc4mXStLpG1Sz9BNLlRFqe0srptRwCceYpGskxUbEg2q2gziUkH4rvXNaUUUGbC0ne+huXT5lAzrpAVKEtMPZoHsoNstGNNj0lBdC4zPpR28levVf7yxa9z4Nl8lKw3C4fDL5zPYtTqJXt0tvcbNH/Ef8mX1QA9ysPELa68GKcOex98wnEC66urv9Wyxi4xTOcTCw1ZL0FTzyNgdpIy5h/DwA7AIANmVuaKJX1sw4Di5pMnwh+qx8ObrscfFqfzfmydh5QuyV38GuU+SjEg8yQginlmqks2Vwyw7xlPiOQvErgG/jrqxu/h3CoWZuQ9VTNx8jUrFFyxh4KTfuoqDlAw67l/KYhURJ5HTu+CELPN5KOD2R6fig54xeFiX9U9IKKhrsQXrFpI5KajkKWkov2AwOHU0Ot2gyq9+RdYkuSUp95JsmDKPZ19LLZJaUkY4zJr95A1aARTnBB9qM4ZsyEQ3K046tmw65ufNmDOg4n0HRCEIsiLmR7QAEHSxm3uWrmPr9HPBcxi9SQ6rxnROSC9lFfR68FZalKW5Gu5Z7clWdAKQMZgiXQgjhIjCmGsvJuIeJQHX6PRGaoyzYybVWd+TXJ022BBtCnwA6Z4pECmwEAAAAA') format('woff2'), url('iconfont.woff?t=1595388330476') format('woff'), url('iconfont.ttf?t=1595388330476') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1595388330476#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.b-ico1 {
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1595387057523');
+    /* IE9 */
+    src: url('iconfont.eot?t=1595387057523#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAMcAAsAAAAABvQAAALPAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqBeIF1ATYCJAMICwYABCAFhG0HNRsgBsgOJU2RwIxiIAFAPPy3X7tv/mAiEbIn00QWyxsih6Shb6mkQPdO3UFbM4h5MHsbMfHckbcc+Tzum08i3nZ3mcrayWzD57mc3jXE5wfKZa6BR70A44AC3QPblGiBFBg3jN1E8ACPE6g3LIzOZkpWETCWgXGBuMN8PTAuhGXZydUK1Q1Ls3hWpTY9pmcAeOKfjz8gC2OSqgJoOLhIbgJxn2JYoNdf6XdOCZLlnHBWUWARkImTRvcePZlepKc+SusbB45VG3yKb2+p+LB/PIKoBqobwaAufiYJlj7qLxPIqMYe4H7SPanuMTFpMzUtTfl/+FDy7l3R+/fFRaWX982mepbi48eSqd3+ncm9gf2iMhHl9C19WrYfBhaXvPzY0GZ02gz1ZvIFF362Oq7qx9PjOovp2YHekK2tjiSxr7I31vDemO339SDdjoPVmCaH9uC2kH/B/z9X5NEtQsbnxv599MjpTE8aSgdvugQKdIG57cp1uWHZtbwjGc/Lm4vdi17FMXftmYVGJK0cdh+xCqByk0Ex/qO/40HaMVXbEvXHuCGDj+jnp1w6zAvU3o4n+K2SgW05lgFLyqGkUZlMveHtqupjnwoA/nY3U/Vd75APtbrexFtjKEOh1iSZmYuo0mAJ1WqtoN6C1NUNOlB6Itdh3oiG0OoYSbN3FFo9JzPzE6p0+4JqraGHemdht2WD6cCmiRTVM9QEGzogbiRqDtmYqagtQLxWWU/zMs4qQVSDY1AqkpRzqUiN6BIzNK28jDEOcpSoYIp2GlIqCRQokaNGJmpmTIgQi7mmJ4kaiQqY2kAh9RikCdSgA4Q1ItQ42p0xrby/AMLTUqpHOygj/hIIpYH7h6REJAPIVLV6EOVRztFoxZNhGA7EoQgVKEUbhCgpEZDQPEgOacSINE9ICiKIYSduqFq0vVb1d3ugHjCkgHMLDSWE27E6vJEIHQAAAA==') format('woff2'), url('iconfont.woff?t=1595387057523') format('woff'), url('iconfont.ttf?t=1595387057523') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('iconfont.svg?t=1595387057523#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    color: #ffffff;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.b-ico2 {
+    position: absolute;
+    left: 75px;
+    top: 10px;
+}
+
+.bottom-ico p {
+    width: 420px;
+    height: 30px;
+    color: #a4a4a4;
+    font-size: 14px;
+    position: absolute;
+    left: -135px;
+    top: 70px;
+}
+
+.b-ico2-one {
+    width: 165px;
+    height: 185px;
+    position: absolute;
+    left: 10px;
+    top: -192px;
+    opacity: 0;
+    transition: all .5s;
+}
+
+.b-ico2-one img:nth-of-type(1) {
+    width: 165px;
+    height: 185px;
+}
+
+.b-ico2-one img:nth-of-type(2) {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+
+.b-ico2-one p {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    left: 34px;
+    top: 127px;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+}
